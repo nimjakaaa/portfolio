@@ -4,13 +4,17 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 module.exports = {
-    entry: './src/index.js',
+    devtool: 'source-map',
+    entry: {
+        bundle: path.resolve(__dirname, 'src/index.js'),
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
+        filename: '[name][contenthash].js',
         clean: true,
+        assetModuleFilename: '[name][ext]', 
     },
-    mode: 'production',
+    mode: 'none',
     devServer: {
         static: {
             directory: path.resolve(__dirname, 'dist')
