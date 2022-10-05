@@ -7,7 +7,7 @@ import Works from './components/works/Works';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
-import { headerRef, socialsRef, emailContactRef, showcaseRef, aboutMeRef, worksRef, contactRef, footerRef } from './domRefs';
+import { headerRef, socialsRef, emailContactRef, showcaseRef, aboutMeRef, worksRef, contactRef, footerRef, aboutMeHeading } from './domRefs';
 import './styles.css';
 
 const App = () => {
@@ -15,6 +15,7 @@ const App = () => {
 
     showcaseRef.innerHTML = Showcase();
     aboutMeRef.innerHTML = AboutMe();
+
     worksRef.innerHTML = Works();
     contactRef.innerHTML = Contact();
 

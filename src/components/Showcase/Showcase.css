@@ -1,4 +1,5 @@
 #showcase {
+    animation: transition-in-up 1s;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,6 +30,7 @@
 }
 
 .intro p{
+    animation: transition-in-up 1s;
     font-size: 1.2rem;
     margin-top: 10px;
     margin-bottom: 100px;

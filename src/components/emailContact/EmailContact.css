@@ -1,4 +1,5 @@
 #email-contact {
+    animation:transition-in-up 1s;
     bottom: 0;
     display: flex;
     flex-direction: column-reverse;
@@ -18,14 +19,17 @@
     margin-bottom: 260px;
     transform: rotateZ(90deg);
 }
+.email a {
+    text-decoration: none;
+}
 .email:hover {
-    color: var(--light-blue);
     cursor: pointer;
     transform: rotateZ(90deg) translateX(-5px);
     transition: transform .5s ease-out;
 }
-
-
+.email a:hover {
+    color: var(--light-blue);
+}
 @media only screen and (max-width: 1050px) {
     #email-contact {
         display: none;

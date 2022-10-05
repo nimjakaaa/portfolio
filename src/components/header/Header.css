@@ -3,6 +3,7 @@
 /*****************/
 
 #header {
+    animation: transition-in-down 1s;
     position: absolute;
 }
 
