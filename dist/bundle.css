@@ -1,0 +1,180 @@
+/*****************/
+/* Global Header */
+/*****************/
+
+#header {
+    position: absolute;
+}
+
+.header-nav {
+    display: flex;
+    height: 50px;
+    margin-top: 50px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/********/
+/* Logo */
+/********/
+
+.logo {
+    margin-left: 70px;
+}
+.logo img {
+    height: 80px;
+    width: 80px;
+}
+
+/********************/
+/* Menu Part Header */
+/********************/
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    list-style-type: none;
+}
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-right: 25px;
+    padding: 10px 5px;
+    letter-spacing: 1.5px;
+}
+.li-number {
+    color: var(--light-blue);
+    display: inline-block;
+    font-family: Fira Code;
+    margin: 0 5px;
+}
+.resume {
+    border: solid var(--light-blue) 1px;
+    color : var(--light-blue);
+    margin-right: 5vw;
+    margin-left: .5vw;
+    padding: 10px 20px;
+}
+
+/********************/
+/* Effects Stylings */
+/********************/
+
+.menu li:hover,
+.menu li:hover > span {
+    color: var(--light-blue);
+    transition: color .5s ease;
+}
+#socials {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    left: 100px;
+    position: fixed;
+    width: 24px;
+}
+#socials *{
+    margin: 2px 0;
+}
+#socials::before {
+    content: '';
+    margin-top: 10px;
+    border-left: double .5px;
+    height: 100px;
+    width: 0;
+}
+#email-contact {
+    bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    right: 100px;
+    width: 2px;
+}
+#email-contact::before {
+    content: '';
+    margin-top: 10px;
+    border-left: double .5px;
+    height: 100px;
+    width: 0;
+}
+.email {
+    font-size: 0.9rem;
+    margin-bottom: 260px;
+    transform: rotateZ(90deg);
+}
+.email:hover {
+    color: var(--light-blue);
+    transform: rotateZ(90deg) translateX(-5px);
+    transition: transform .5s ease-out;
+}
+#showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.greeting {
+    color: var(--light-blue);
+    font-family: Fira Code;
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding-left: 10px;
+}
+
+.my-name h3{
+    color: #A6B1E1;
+    font-family: Calibri;
+    font-size: 4.5rem;
+    letter-spacing: .5px;
+}
+
+.whoami h3{
+    color: #424874;
+    font-family: Calibri;
+    font-size: 3.1rem;
+    letter-spacing: .5px;
+}
+
+.intro p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 500px;
+    letter-spacing: .2x;
+}
+#about-me {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+:root {
+    --main-backgroung-color: #212121;
+    --main-font-color: #EEEEEE;
+    --light-blue: #BBE1FA;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--main-font-color);
+    font-family: Tajawal;
+}
+
+body {
+    background-color: var(--main-backgroung-color);
+}
+
+.container {
+    width: 50vw;
+    margin: auto;
+}
+
+/*# sourceMappingURL=bundle.css.map*/

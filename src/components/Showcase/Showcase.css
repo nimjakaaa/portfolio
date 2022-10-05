@@ -1,0 +1,36 @@
+#showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.greeting {
+    color: var(--light-blue);
+    font-family: Fira Code;
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding-left: 10px;
+}
+
+.my-name h3{
+    color: var(--light-blue);
+    font-family: Calibri;
+    font-size: 4.5rem;
+    letter-spacing: .5px;
+}
+
+.whoami h3{
+    color: var(--dark-purple);
+    font-family: Calibri;
+    font-size: 4.5rem;
+    letter-spacing: .5px;
+}
+
+.intro p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 500px;
+    letter-spacing: .2x;
+}

@@ -1,0 +1,11 @@
+#footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+}
+#footer p{
+    border-top: solid .5px;
+    font-size: 0.8rem;    
+}

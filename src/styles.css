@@ -1,0 +1,33 @@
+:root {
+    --main-backgroung-color: #212121;
+    --main-font-color: #EEEEEE;
+    --light-blue: #BBE1FA;
+    --light-purple: #A6B1E1;
+    --dark-purple: #424874;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--main-font-color);
+    font-family: Tajawal;
+}
+
+body {
+    background-color: var(--main-backgroung-color);
+}
+
+.container {
+    width: 50vw;
+    margin: auto;
+}
+
+.btn {
+    background-color: var(--main-backgroung-color);
+    border: solid var(--light-blue) 1px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    margin: 35px auto;
+}

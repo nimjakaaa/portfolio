@@ -1,0 +1,91 @@
+/*****************/
+/* Global Header */
+/*****************/
+
+#header {
+    position: absolute;
+}
+
+.header-nav {
+    display: flex;
+    height: 50px;
+    margin-top: 50px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/********/
+/* Logo */
+/********/
+
+.logo {
+    margin-left: 70px;
+}
+.logo img {
+    height: 80px;
+    width: 80px;
+}
+.logo img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 1s ease-out;
+}
+
+/********************/
+/* Menu Part Header */
+/********************/
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    list-style-type: none;
+}
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-right: 25px;
+    padding: 10px 5px;
+    letter-spacing: 1.5px;
+}
+.menu li:hover {
+    cursor: pointer;
+}
+.li-number {
+    color: var(--light-blue);
+    display: inline-block;
+    font-family: Fira Code;
+    margin: 0 5px;
+}
+
+.resume {
+    background-color: var(--main-backgroung-color);
+    border: solid var(--light-blue) 1px;
+    border-radius: 5px;
+    color : var(--light-blue);
+    margin-right: 5vw;
+    margin-left: .5vw;
+    padding: 10px 20px;
+}
+.resume:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+    background-color: #333;
+    transition: box-shadow .15s ease;
+}
+.resume:active {
+    transform: scale(.97)
+}
+
+/********************/
+/* Effects Stylings */
+/********************/
+
+.menu li:hover,
+.menu li:hover > span {
+    color: var(--light-blue);
+    transition: color .5s ease;
+}

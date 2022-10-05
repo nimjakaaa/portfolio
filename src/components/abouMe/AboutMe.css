@@ -1,0 +1,75 @@
+#about-me {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    gap: 50px;
+}
+
+.about-me-heading {
+    border-bottom: solid 1px rgba(255, 255, 255, .5);
+    font-size: 1.4rem;
+    
+}
+.number-code {
+    color: var(--light-blue);
+    font-family: Fira Code;
+    font-weight: 100;
+}
+.about-me-heading span {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.about-me-card {
+    display: flex;
+    padding: 10px 30px;
+    gap: 50px;
+}
+
+.my-info p{
+    color: #aaa;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.img-wrapper {
+    box-shadow: 5px 5px 4px var(--light-blue);  
+    height: 280px;
+    width: 280px;
+}
+.img-wrapper:hover {
+    box-shadow: none;
+    transition: box-shadow .3s ease-out;
+}
+.my-image img{
+    height: 280px;
+    width: 280px;
+    border-radius: 5px;
+}
+.my-image img:hover{
+    box-shadow: none;
+    transform: translateX(12px) translateY(12px);
+    transition: transform .4s ease-out;
+}
+.my-image::before {
+    display: block;
+    position: absolute;
+    content: '';
+    border: solid var(--light-blue) 2px;
+    border-radius: 5px;
+    height: 280px;
+    width: 280px;
+    transform: translateX(10px) translateY(10px);
+    z-index: -1;
+}
+
+.highlight {
+    color: var(--light-blue);
+}
+.my-info ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}

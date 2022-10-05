@@ -1,0 +1,26 @@
+#email-contact {
+    bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    right: 100px;
+    width: 2px;
+}
+#email-contact::before {
+    content: '';
+    margin-top: 10px;
+    border-left: double .5px;
+    height: 100px;
+    width: 0;
+}
+.email {
+    font-size: 0.9rem;
+    margin-bottom: 260px;
+    transform: rotateZ(90deg);
+}
+.email:hover {
+    color: var(--light-blue);
+    cursor: pointer;
+    transform: rotateZ(90deg) translateX(-5px);
+    transition: transform .5s ease-out;
+}

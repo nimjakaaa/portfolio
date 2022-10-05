@@ -1,0 +1,24 @@
+#socials {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    left: 100px;
+    position: fixed;
+    width: 24px;
+}
+#socials *{
+    margin: 2px 0;
+}
+#socials::before {
+    content: '';
+    margin-top: 10px;
+    border-left: double .5px;
+    height: 100px;
+    width: 0;
+}
+#socials div:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform .25s ease-out;
+}

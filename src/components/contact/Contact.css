@@ -1,0 +1,31 @@
+#contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+}
+.contact-heading h3{
+    color: var(--light-blue);
+    font-size: 1.4rem;
+}
+#contact h1{
+    font-size: 4rem;
+    margin: 30px 0;
+}
+#contact p{
+    display: block;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 25px;
+    width: 30rem;
+}
+#contact button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+    background-color: #333;
+    transition: box-shadow .15s ease;
+}
+#contact button:active {
+    transform: scale(.98)
+}
