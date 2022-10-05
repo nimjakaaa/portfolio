@@ -14,7 +14,7 @@ module.exports = {
         clean: true,
         assetModuleFilename: '[name][ext]', 
     },
-    mode: 'none',
+    mode: 'production',
     devServer: {
         static: {
             directory: path.resolve(__dirname, 'dist')
