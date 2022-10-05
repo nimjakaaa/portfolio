@@ -7,5 +7,12 @@
 }
 #footer p{
     border-top: solid .5px;
-    font-size: 0.8rem;    
+    font-size: 0.8rem;  
+}
+#footer a{
+    text-decoration: none;
+}
+#footer span:hover {
+    color: var(--light-blue);
+    cursor: pointer;
 }
