@@ -12,9 +12,9 @@ const Header = () => {
             </div>
             <div class="nav-right">
                 <ol class="menu">
-                    <li><span class="li-number">01.</span>ABOUT</li>
-                    <li><span class="li-number">03.</span>WORKS</li>
-                    <li><span class="li-number">04.</span>CONTACT</li>
+                    <li class="li-about"><span class="li-number">01.</span>ABOUT</li>
+                    <li class="li-works"><span class="li-number">03.</span>WORKS</li>
+                    <li class="li-contact"><span class="li-number">04.</span>CONTACT</li>
                 </ol>
                 <button class="resume">
                     Resume
