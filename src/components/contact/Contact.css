@@ -18,7 +18,7 @@
     font-size: 1.1rem;
     text-align: center;
     line-height: 25px;
-    width: 30rem;
+    width: 30vw;
 }
 #contact button:hover {
     cursor: pointer;
@@ -28,4 +28,23 @@
 }
 #contact button:active {
     transform: scale(.98)
+}
+@media only screen and (max-width: 1200px) {
+    #contact p {
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contact-heading h3 {
+        font-size: 1rem;
+    }
+    #contact h1 {
+        font-size: 3rem;
+    }
+    #contact p {
+        font-size: .9rem;
+        width: 70vw;
+    }
 }

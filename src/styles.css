@@ -31,3 +31,19 @@ body {
     padding: 12px 30px;
     margin: 35px auto;
 }
+
+@media only screen and (max-width: 1300px) {
+    .container {
+        width: 70vw;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .container {
+        width: 90vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95vw;
+    }
+}

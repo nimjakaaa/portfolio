@@ -73,3 +73,26 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 1300px) {
+    #about-me {
+        height: 1000px;
+    }
+    .about-me-card {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-wrapper{
+        max-width: 100%;
+        height: auto;
+    }
+    .my-image::before{
+        display: none;
+    }
+    .my-image img {
+        max-width: 100%;
+        height: auto;   
+    }
+}
